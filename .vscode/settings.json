@@ -1,0 +1,25 @@
+{
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "editor.autoSurround": "brackets",
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    }
+  ],
+  "eslint.autoFixOnSave": true,
+
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      // Prettier option here
+      "semi": false
+    }
+  }
+}
